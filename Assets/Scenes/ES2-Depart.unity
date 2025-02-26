@@ -1793,11 +1793,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8632670369948054855}
+      addedObject: {fileID: 8632670369948054863}
     - targetCorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8632670369948054859}
+      addedObject: {fileID: 8632670369948054864}
   m_SourcePrefab: {fileID: 100100000, guid: 20c0aa25022fd474ebac164d517acaa3, type: 3}
 --- !u!1 &3635746710492279696 stripped
 GameObject:
@@ -1811,7 +1811,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3635746710492279695}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8632670369948054855
+--- !u!114 &8632670369948054863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: cfe46117df00146be8941f8dea005fbc,
+  m_Actions: {fileID: -944628639613478452, guid: b7c529199b39d4ec1bea0f9b37b1dc8c,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
@@ -1838,11 +1838,11 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: SousMarin
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &8632670369948054859
+--- !u!114 &8632670369948054864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1851,9 +1851,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3635746710492279696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3985fc697098b4a8c8bb161369592fc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3646b89907a89451098c91c1197a5f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vitessePromenade: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
