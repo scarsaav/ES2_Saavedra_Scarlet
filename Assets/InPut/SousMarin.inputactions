@@ -13,20 +13,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Vitesse",
+                    "type": "Button",
+                    "id": "c8d8514b-bcab-4825-b32b-bb6bdfb27350",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "f1c1ab4d-938e-487f-8401-a923ed2d67e4",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "3D Vector",
                     "id": "1ef8ce65-8130-45df-9853-b42f120e73d6",
@@ -103,6 +101,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "b6da6aab-02f6-48f4-9373-baec55bc2c20",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Vitesse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
