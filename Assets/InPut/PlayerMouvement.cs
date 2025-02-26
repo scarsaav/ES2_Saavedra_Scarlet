@@ -9,6 +9,7 @@ public class PlayerMouvement : MonoBehaviour
     public Rigidbody rb;
     public float moveSpeed;
     private Vector3 _moveDirection;
+    private Vector3 directionInput;
 
     public InputActionReference move;
 
@@ -19,6 +20,7 @@ public class PlayerMouvement : MonoBehaviour
     {
         
     }
+
 
     // Update is called once per frame
     void Update()
