@@ -14,11 +14,13 @@ public class PlayerMouvement : MonoBehaviour
     public InputActionReference move;
 
 
+    private Animator animator;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
 
@@ -26,6 +28,15 @@ public class PlayerMouvement : MonoBehaviour
     void Update()
     {
         _moveDirection = move.action.ReadValue<Vector3>();
+
+        if(_moveDirection != Vector3.zero)
+        {
+            animator.SetBool("IsMoving", true);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
+        }
     }
 
     private void FixedUpdate()
