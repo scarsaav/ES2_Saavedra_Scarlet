@@ -40,6 +40,15 @@ public class PlayerMouvement : MonoBehaviour
         }
 
 
+        if(Input.GetKey("S"))
+        {
+            animator.SetBool("IsReculer", true);
+        }
+        else
+        {
+            animator.SetBool("IsReculer", false);
+        }
+
     }
 
     private void FixedUpdate()
