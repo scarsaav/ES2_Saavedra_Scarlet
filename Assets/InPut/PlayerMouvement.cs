@@ -45,8 +45,15 @@ public class PlayerMouvement : MonoBehaviour
         
     }
 
-    //void OnVitesse(InputValue bouton)
-    //{
-    //    Debug.Log("ativé" + bouton.isPressed);
-    //}
+    void OnVitesse(InputValue etatBouton)
+    {
+        if(etatBouton.isPressed)
+        {
+            moveSpeed = 20;
+        }
+        else
+        {
+            moveSpeed = 5;
+        }
+    }
 }
