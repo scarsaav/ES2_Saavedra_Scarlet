@@ -38,6 +38,8 @@ public class PlayerMouvement : MonoBehaviour
         {
             animator.SetBool("IsMoving", false);
         }
+
+
     }
 
     private void FixedUpdate()
@@ -59,4 +61,6 @@ public class PlayerMouvement : MonoBehaviour
             animator.SetFloat("Speed", 1f);
         }
     }
+
+    
 }
