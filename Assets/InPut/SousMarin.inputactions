@@ -106,9 +106,9 @@
                     "name": "",
                     "id": "b6da6aab-02f6-48f4-9373-baec55bc2c20",
                     "path": "<Keyboard>/shift",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard",
                     "action": "Vitesse",
                     "isComposite": false,
                     "isPartOfComposite": false
