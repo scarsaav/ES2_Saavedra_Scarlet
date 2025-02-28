@@ -28,6 +28,7 @@ public class PlayerMouvement : MonoBehaviour
     void Update()
     {
         _moveDirection = move.action.ReadValue<Vector3>();
+        
 
         if(_moveDirection != Vector3.zero)
         {
@@ -50,10 +51,12 @@ public class PlayerMouvement : MonoBehaviour
         if(etatBouton.isPressed)
         {
             moveSpeed = 20;
+            animator.SetFloat("Speed", 2f);
         }
         else
         {
             moveSpeed = 5;
+            animator.SetFloat("Speed", 1f);
         }
     }
 }
